@@ -5,8 +5,6 @@ import { defineConfig } from "vite";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
-  base: "/Ceramic-Soul2/",
-
   build: {
     rollupOptions: {
       input: {
